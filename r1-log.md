@@ -81,5 +81,14 @@ app.use(errorHandler);
 ```
 
 ### R1D1 
+Worked on my project **Box Brain**
+1. Finalised a colour palette
+    * This took waaaay longer than I expected, with me browsing different websites and resources to find the right palette
+    * Learned about the required contrast ratio of background and text colours for accessibility. Found this useful website (https://monsido.com/tools/contrast-checker) for contrast checker
+    * TO DO next:
+      - Move the colour palette (_colors.scss) and other styles-related files to frontend server
+      - Create an API Endpoint in frontend server that returns the colour palette data (to re-assess if needed)
+      - Update all the relevant models to take in colour name instead of hex code (to utilise the set colours in the palette)
+2. Created a route to quick set up Stack & Boxes based on specific templates
 
 
