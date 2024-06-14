@@ -91,4 +91,11 @@ Worked on my project **Box Brain**
       - Update all the relevant models to take in colour name instead of hex code (to utilise the set colours in the palette)
 2. Created a route to quick set up Stack & Boxes based on specific templates
 
-
+### R1D2
+Worked on my project **Box Brain**
+1. Learned how to update an existing field in database (updating Model, updating Validation, and updating the current data via script)
+2. Learned a few things in Joi validation schema
+    - how to include a set of acceptable value via `valid()`
+    - how to set a default value via `valid()`
+    - how to set different validation rules that depends on another field's value via `when("other_field_name", { is: valueToCheckFor, then: validationRulesIfTrue, otherwise: validationRulesIfFalse})`
+3. Updated my resource creation route to include validations
